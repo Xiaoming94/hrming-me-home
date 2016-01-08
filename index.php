@@ -3,6 +3,8 @@
 <html>
 <head>
     <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Josefin+Slab" />
     <title><?php echo "XiaoMing Home"?></title>
 </head>
 <body>

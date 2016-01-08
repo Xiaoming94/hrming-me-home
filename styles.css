@@ -1,11 +1,7 @@
 /*This is the Css file for */
-@font-face {
-    font-family: "TexGyreAdventor";
-    src: url('fonts/texgyreadventor-regular.otf') format("truetype");
-}
 
 body {
-    font-family: "TexGyreAdventor";
+    font-family: 'Josefin Slab';
     font-size: 24px;
     background-color: #aaa;
 }
