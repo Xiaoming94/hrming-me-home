@@ -1,7 +1,7 @@
 /*This is the Css file for */
 
 body {
-    font-family: 'Josefin Slab';
+    font-family: 'Raleway', sans-serif;
     font-size: 28px;
     background-color: #aaa;
 }
@@ -22,7 +22,7 @@ body {
 }
 .header-container>header>h1 {
     font-size: 54px;
-    font-family: Impact, fantasy;
+    font-family: 'Droid Serif';
     font-style: italic;
     text-align:center;
 }
