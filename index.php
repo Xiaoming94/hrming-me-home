@@ -14,7 +14,7 @@
             </header>
         </div>
         <div class="presentation-text">
-        <?php echo "Det här är en sida av Henry Yang som är fortfarande under utväckling.<br />"?>
+        <?php echo "Det här är en sida av Henry Yang som fortfarande är under utväckling.<br />"?>
         <?php echo "Men du kan titta in länkarna nedan :) "?>
         </div>
         <ul>
