@@ -20,6 +20,7 @@ rel='stylesheet' type='text/css' />
         </div>
         <ul>
             <li><a href="http://blog.hrming.me"><?php echo "Min Blogg"?></a></li>
+            <li><a href="https://github.com/Xiaoming94"><?php echo "Mitt Github konto"?></a></li>
         </ul>
     </div>
 <body>
