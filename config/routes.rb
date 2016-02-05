@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  get 'cms/index'
+  #get 'cms/index'
 
   #get 'homepage/index'
-  match ':controller(/:action(/;id))', :via => :get
+  match ':controller(/:action(/:id))', :via => :get
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
