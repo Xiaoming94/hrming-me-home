@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :blocks
   #get 'cms/index'
 
   #get 'homepage/index'
