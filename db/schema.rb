@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160207214047) do
+ActiveRecord::Schema.define(version: 20160208140506) do
 
   create_table "blocks", force: :cascade do |t|
     t.string   "title",      limit: 255
@@ -20,9 +20,19 @@ ActiveRecord::Schema.define(version: 20160207214047) do
     t.datetime "updated_at",               null: false
   end
 
-  create_table "homepages", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table "contents", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  create_table "pages", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.string   "content",    limit: 255
+    t.string   "header",     limit: 255
+    t.string   "footer",     limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end
